@@ -1,0 +1,24 @@
+.content li{
+    list-style: none;
+}
+.share{
+    width: 200px;
+    border: 1px solid red;
+    list-style: none;
+}
+.top{
+    border-bottom: 1px solid red;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    text-transform: uppercase;
+}
+.bottom a{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 15px;
+}

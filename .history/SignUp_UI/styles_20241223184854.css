@@ -1,0 +1,71 @@
+.content li{
+    list-style: none;
+}
+.share{
+    width:200px;
+    border: 1px solid red;
+    margin: 50px auto;
+}
+.top{
+    border-bottom: 1px solid red;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+}
+.bottom a{
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: aliceblue;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.content ul {
+    display: flex;
+    flex-flow: row wrap;
+}
+.content ul li{
+   width: 99px;height: 99px;
+}
+.content ul li:nth-of-type(even){
+    border-left: 1px solid #000;
+ }
+.content ul li a{
+    width: 100%;height: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.content ul li i{
+    font-size: 25px;
+}
+.content ul li span {
+    list-style: none;
+    font-size: 10px;
+    color: black;
+    position: absolute;
+    right: 10px;
+    left: 10px;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.content ul li * {
+    transition: color .2s linear ;
+    background-color: 0.2s limegreen;
+}
+.content ul li.fb i{
+    color: blue;
+}
+.content ul li.tw i{
+    color: rgb(214, 183, 7);
+}
+.content ul li.in i{
+    color: rgb(15, 240, 34);
+}
+.content ul li.gh i{
+    color: rgb(3, 3, 78);
+}

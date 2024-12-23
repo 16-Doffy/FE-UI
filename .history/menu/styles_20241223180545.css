@@ -1,0 +1,81 @@
+:root {
+    --color: #05219ba1;
+    --fs: 15px;
+}
+body {
+    background-image: linear-gradient(to left, rgba(6, 6, 138, 0.555), rgba(255, 0, 0, 0.479));
+    font-family: monospace;
+}
+
+.header-inner {
+    max-width: 1024;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.logo{
+  max-width: 2rem;
+}
+.logo img{
+   width: 100px;
+   height: 100px;
+   padding: 50px;
+   border-radius: 50px;
+  }
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu-item {
+    margin: 0 1rem;
+    list-style: none;
+}
+.menu-item:hover .menu-child {
+    opacity: 1;
+    visibility: visible;
+}
+.menu-link {
+color: black;
+text-transform: uppercase;
+text-decoration: none;
+font-size: 1.4rem;
+display: flex;
+padding: 2rem;
+list-style: none;
+}
+
+.menu-child{
+position: absolute;
+top: 100%;
+left: 0;
+width: 100%;
+background-color: white;
+display: flex;
+opacity: 0;
+visibility: hidden;
+transition:  0.25s linear;
+}
+.menu-child-item{
+    padding: 20px;
+    list-style: none;
+width: 25%;
+}
+.menu-child-item h4{
+    list-style: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 1rem;
+    justify-content: center;
+    width: 50%;
+    gap: 10px;
+    background-color: var(--color);
+}
+.menu-child-first{
+color: black;
+font-size: 2rem;
+
+justify-content: center;
+align-items: center;
+}

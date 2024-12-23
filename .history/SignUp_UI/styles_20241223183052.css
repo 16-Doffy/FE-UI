@@ -1,0 +1,8 @@
+.content li{
+    list-style: none;
+}
+.share{
+    width: 200px;
+    border: 1px solid transparent;
+    list-style: none;
+}

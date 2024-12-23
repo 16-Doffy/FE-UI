@@ -1,0 +1,10 @@
+:root {
+    --color: #05219ba1;
+    --fs: 15px;
+}
+body {
+    background-image: linear-gradient(to left ,rgba(6, 6, 138, 0.555) 60%,rgba(255, 0, 0, 0.479) 40%);
+    font-family: monospace;
+}
+
+  

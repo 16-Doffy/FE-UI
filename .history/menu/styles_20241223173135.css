@@ -1,0 +1,34 @@
+:root {
+    --color: #05219ba1;
+    --fs: 15px;
+}
+body {
+    background-image: linear-gradient(to left ,rgba(6, 6, 138, 0.555) ,rgba(255, 0, 0, 0.479) );
+    font-family: monospace;
+}
+.header{
+background-color: #fff;
+}
+.header-inner{
+max-width: 1024px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo img{
+    border-radius: 20px;
+    display: block;
+width: 100px;
+height: 100px;
+}
+.menu{
+
+}
+.menu-item{
+
+}
+.menu-link{
+justify-content: space-between;
+}
+
+  
