@@ -1,0 +1,54 @@
+:root{
+    --color:#05219ba1;
+    --fs:15px;
+}
+body{
+    font-family: monospace;
+}
+.plant-detail{
+width: 80rem;
+min-height: 60rem;
+background-color: antiquewhite;
+}
+.plant-detail-container{
+
+}
+.plant-detail-header{
+
+}
+.plant-detail-back{
+
+}
+.fa-solid{
+
+}
+.fa-backward{
+
+}
+.plant-detail-like{
+
+}
+.fa-thumbs-up{
+
+}
+.plant-detail-content{
+
+}
+.plant-detail-image{
+
+}
+.plant-detail-info{
+
+}
+.plant-detail-title{
+
+}
+.plant-detail-category{
+
+}
+.plant-detail-desc{
+
+}
+.plant-detail-button{
+
+}

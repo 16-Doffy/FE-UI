@@ -1,0 +1,99 @@
+:root {
+    --color: #05219ba1;
+    --fs: 15px;
+}
+body {
+    font-family: monospace;
+}
+.plant-detail {
+    width: 80rem;
+    min-height: 60rem;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.plant-detail-container {
+    background-color: #fff;
+    box-shadow: 0 0 4px 4px var(--color);
+}
+.plant-detail-header {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.plant-detail-back {
+    color: black;
+    text-transform: uppercase;
+}
+.plant-detail-back a {
+    text-decoration: none;
+}
+.plant-detail-back span {
+    margin-left: 1.5rem;
+}
+.plant-detail-like {
+    color: var(--color);
+    font-size: 2rem;
+    cursor: pointer;
+}
+.plant-detail-content {
+    display: flex;
+}
+.plant-detail-image {
+    width:45%;
+}
+.logo {
+    width: 110%;
+}
+.plant-detail-content > div{
+    padding: 4rem;
+}
+.plant-detail-info {
+    width: 60%;
+    border-left: 1px solid #000;
+}
+.plant-detail-title {
+    font-size: var(--fs);
+    text-transform: uppercase;
+    color: black;
+    margin-bottom: 0.5rem;
+}
+.plant-detail-category {
+    text-transform: uppercase;
+    display: block;
+    color: var(--color);
+    margin-bottom: 2rem;
+}
+.plant-detail-price {
+ font-size: 2rem;
+ color: black;
+ margin-bottom: 2rem;
+ display: block;   
+}
+.plant-detail-desc {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: rgb(148, 144, 144);
+    margin-bottom: 2rem;
+   }
+
+.plant-detail-button {
+    background-color: rgba(89, 95, 95, 0.562);
+    display: flex;
+   justify-content: center;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 1rem 3rem;
+    min-width: 10rem;
+    font-size: 1.5rem;
+}
+
+.plant-detail-button:hover {
+    background-color: var(--color);
+    color: white;
+}
