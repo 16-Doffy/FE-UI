@@ -1,0 +1,12 @@
+:root {
+  --color: #de4b3e;
+  --color1: #c74237;
+  --fs: 15px;
+}
+html{
+    font-size: 62.5%;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,54 @@
+:root {
+  --color: #de4b3e;
+  --color1: #c74237;
+  --fs: 15px;
+}
+html{
+    font-size: 62.5%;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+* {
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient( to top,#ff4988,#ffc781,#fffefc);
+  display: flex;
+  align-items: stretch;
+  align-items: center;
+  justify-content: center;
+}
+.signup{
+
+}
+.signup_heading{
+
+}
+.signup_already{
+
+}
+.signup_signin{
+
+}
+.signup_form{
+
+}
+.form_group{
+
+}
+.form_input{
+
+}
+.form_group--2{
+
+}
+.form_submit{
+
+}
+.form_tos{
+
+}
+.signup_tos{
+
+}

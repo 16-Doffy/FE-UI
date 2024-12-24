@@ -1,0 +1,99 @@
+:root {
+  --color: #de4b3e;
+  --color1: #c74237;
+  --fs: 15px;
+}
+html{
+    font-size: 62.5%;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+* {
+  box-sizing: border-box;
+}
+.dropdown {
+  width: 100%;
+  max-width: 47,5rem;
+  margin: 5rem auto;
+  position: relative;
+}
+.dropdown-select {
+  padding: 3rem;
+  margin-left: 25px;
+  background-color: var(--color);
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.dropdown:hover .dropdown-list{
+    display: block;
+}
+.dropdown-list {
+  margin-top: 2.5rem;
+  border-radius: 4px;
+  
+  top: 100%;
+  left: 0;right: 0;
+  display: none;
+}
+.dropdown-list:first-child::before{
+    content: "";
+    height: 3rem;
+    position: absolute;
+   left: 0;right: 0;
+    background-color:transparent;
+    transform: translateY(-100%);
+}
+.dropdown-list:before{
+    content: "";
+    position: absolute;
+ 
+    left: 7rem;
+    border-left: 10px solid  transparent;
+    border-right: 10px solid  transparent;
+    border-bottom: 10px solid green;
+    transform: translateY(-100%);
+}
+.dropdown-item {  
+    /* margin-left: 25px;
+    width: 80%; */
+  padding: 3rem;
+  background-color: var(--color);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+.dropdown-item:first-child{
+    border-radius: 4px 4px 0 0;
+    
+}
+.dropdown-item:last-child{
+    border-radius: 0 0 4px 4px;
+}
+.dropdown-list:first-child:before{
+    content: "";
+    position: absolute;
+    top: 0;left: 3rem;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid var(--color);
+    transform: translateY(-100%);
+    transition: border-color -.2s linear;
+   
+}
+.dropdown-item:first-child:hover:before{
+    border-bottom-color:var(--color1) ;
+}
+
+.dropdown-item:hover {
+  background-color: var(--color1);
+}

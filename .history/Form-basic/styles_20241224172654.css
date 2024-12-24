@@ -1,0 +1,68 @@
+:root {
+  --color: #de4b3e;
+  --color1: #c74237;
+  --fs: 15px;
+}
+html{
+    font-size: 62.5%;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+* {
+  box-sizing: border-box;
+}
+body{
+height: 100vh;
+width: 100%;
+  background-image: linear-gradient( to top,#ff4988,#ffc781,#fffefc);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup{
+width: 100%;
+max-width: 50rem;
+background-color: #fff;
+border-radius: 10px;
+padding: 5.5rem 3.5rem;
+}
+.signup_heading{
+font-size: 3rem;
+text-align: center;
+font-weight: bold;
+margin-bottom: 2rem;
+}
+.signup_already{
+text-align: center;
+font-size: 1.6rem;
+margin-bottom: 3.5rem;
+}
+.signup_link{
+color: blue;
+font-size: inherit;
+text-decoration: underline;
+}
+.signup_link--underline{
+
+  text-decoration: underline;
+  }
+.signup_form{
+
+}
+.form_group{
+
+}
+.form_input{
+
+}
+.form_group--2{
+
+}
+.form_submit{
+
+}
+.form_tos{
+
+}
+.signup_tos{
+
+}

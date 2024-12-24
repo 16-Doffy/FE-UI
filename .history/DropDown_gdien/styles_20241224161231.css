@@ -1,0 +1,21 @@
+:root {
+    --color: #de4b3e;
+    --color1:#c74237;
+    --fs: 15px;
+}
+body {
+    box-sizing: border-box;
+}
+.dropdown{
+
+}
+.dropdown-select{
+
+}
+.dropdown-selectted{
+
+}
+
+.dropdown-caret{
+
+}

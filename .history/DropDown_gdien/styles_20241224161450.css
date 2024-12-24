@@ -1,0 +1,33 @@
+:root {
+    --color: #de4b3e;
+    --color1:#c74237;
+    --fs: 15px;
+}
+body {
+    font-size: 62.5%;
+    background-color: black;
+    box-sizing: border-box;
+}
+.dropdown{
+ width: 100%;
+ max-width:47,5rem;
+ margin: 5rem auto;
+}
+.dropdown-select{
+width: 100%;
+padding: 3rem;
+background-color: var(--color);
+border-radius: 4px;
+color: white;
+font-weight: bold;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.dropdown-selectted{
+
+}
+
+.dropdown-caret{
+
+}
