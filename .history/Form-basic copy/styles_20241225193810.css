@@ -1,0 +1,67 @@
+:root {
+  --color: #de4b3e;
+  --color1: #c74237;
+  --color2:#4797ff;
+  --bi: linear-gradient( to top,#ff4988,#ffc781,#fffefc);
+  --fs: 15px;
+}
+html{
+    font-size: 62.5%;
+    background-color: rgba(0, 0, 0, 0.459);
+}
+* {
+  box-sizing: border-box;
+}
+/* body{
+height: 100vh;
+width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+
+} */
+.head{
+width: 50%;
+height: auto;
+margin: 0 auto;
+display: block;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+background-color: white;
+}
+.head-avater{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.head-name{
+font-size: 20px;
+display: block;
+position: absolute;
+
+}
+.head-desc{
+font-size: 15px;
+font-weight: bold;
+}
+.card{
+  display: flex;
+  justify-content: space-between;
+}
+.card-item{
+
+}
+.card-item-number{
+  display: flex;
+  justify-content: space-between;
+}
+.card-item-text{
+  display: block;
+justify-content: space-between;
+}
+.foot{
+
+}

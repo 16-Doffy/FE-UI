@@ -1,0 +1,129 @@
+html {
+  font-size: 62.5%;
+  font-family: serif;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0d4dce;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+.sign-up {
+  padding: 90px 65px;
+  background-color: white;
+  width: 100%;
+  max-width: 600px;
+  border-radius: 20px;
+}
+.signup-heading {
+  color: #c544a8;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+.signup-social {
+  padding: 10px;
+  width: 100%;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  display: block;
+  border-radius: 20px;
+  font-family: serif;
+  border: 0;
+  background-color: #0f8de0ef;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 1px 12px 1px #025b97;
+}
+.signup-social-icon {
+  width: 3px;
+  height: 60px;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0d4dce;
+  font-size: 30px;
+}
+.signup-social-text {
+  display: block;
+  margin: 0 auto;
+}
+.signup-or {
+  text-align: center;
+  font-size: 16px;
+  color: #999;
+  margin: 55px auto;
+  position: relative;
+}
+.signup-or::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #999;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.signup-or span {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: white;
+  z-index: 2;
+  position: relative;
+}
+.signup-label{
+font-size: 16px;
+color: #000;
+margin-bottom: 10px;
+display: inline-block;
+cursor: pointer;
+}
+.signup-input{width: 100%;
+padding: 25px;
+background-color: red;
+display: block;
+border-radius: 20px;
+outline: none;
+font-family: 'Times New Roman', Times, serif;
+font-size: 17px;
+margin-bottom: 30px;
+}
+.signup-submit{
+padding: 25px;
+color: white;
+font-size: 18px;
+text-align: center;
+border: 0;
+width: 100%;
+display: inline-block;
+  border-radius: 20px;
+  outline: none;
+  background-color: #2691d9;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 5px 20px 10px #0119296c;
+  margin-top: 25px;
+  margin-bottom: 14px;
+}
+.signup-already{
+text-align: center;
+font-size: 16px;
+color: #9999;
+}
+.signup-login-link{
+color: blue;
+text-decoration: none;
+}

@@ -1,0 +1,16 @@
+html{
+    font-size: 62.5%;
+    font-family: serif;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;height: 100vh;
+    background-color: #f2f2f2;
+
+}
+.sign-up{
+    padding: 90px 75px;
+    background-color: white;
+}
