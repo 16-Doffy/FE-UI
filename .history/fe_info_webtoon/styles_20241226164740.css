@@ -1,0 +1,99 @@
+body{
+    padding: 20px;
+}
+.card{
+width: 100%;
+max-width: 800px;
+margin: 0 auto;
+padding: 10px;
+background-color: white;
+box-shadow: #110101 0 7px 29px 0;
+border-radius: 20px;
+display: flex;
+align-items: center;
+}
+.card-media{
+width: 40%;
+flex-shrink: 0;
+border-radius: inherit;
+overflow: hidden;
+position: relative;
+}
+.card-number{
+
+}
+.fa-brands{
+
+}
+.fa-readme{
+
+}
+.card-content{
+
+}
+.card-top{
+
+}
+.card-live{
+
+}
+.fa-solid{
+
+}
+.fa-book{
+
+}
+.fa-shop{
+
+}
+.card-category{
+
+}
+.card-title{
+
+}
+.card-meta{
+
+}
+.card-status{
+
+}
+.card-status-circle{
+
+}
+.is-blue{
+
+}
+.is-green{
+
+}
+.card-user{
+
+}
+.card-user-avatar{
+
+}
+.card-user-info{
+
+}
+.card-user-top{
+
+}
+.card-user-name{
+
+}
+.fa-check{
+
+}
+.card-user-game{
+
+}
+.card-social{
+
+}
+.card-social-item{
+
+}
+.fa-arrow-right{
+
+}
