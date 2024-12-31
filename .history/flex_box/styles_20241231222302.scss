@@ -1,0 +1,13 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    text-decoration: none;
+list-style: none;
+    .list-item{
+       
+        padding: 1rem;
+        background-color: orange;
+        margin: 0 5px;
+    }
+}

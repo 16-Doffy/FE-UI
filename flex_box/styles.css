@@ -1,0 +1,42 @@
+.list {
+  margin-top: 5rem;
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+.list .list-item {
+  padding: 1rem;
+  background-color: orange;
+  margin: 5px;
+  order: 0;
+}
+.list .list-item:nth-child(2) {
+  order: 1;
+}
+.list .list-item:nth-child(3) {
+  order: 3;
+}
+.list .list-item:last-child {
+  order: 2;
+}
+
+.layout {
+  display: flex;
+}
+.layout .p {
+  --value:10rem;
+  width: calc(100% - var(--value));
+  margin-bottom: -100px;
+}
+.layout .icon {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  background-color: red;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=styles.css.map */

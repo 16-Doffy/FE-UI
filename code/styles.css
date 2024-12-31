@@ -1,0 +1,11 @@
+.header {
+  height: 200px;
+}
+.header_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*# sourceMappingURL=styles.css.map */

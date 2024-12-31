@@ -1,0 +1,24 @@
+@mixin flexbox ($align:flex-start , $justify:flex-start, $wrap:wrap) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    height: 200px;
+    &_logo {
+        @include flexbox(center,flex-end,);
+    }
+}
+.boxed{
+    height: 10rem;
+    width: 10rem;
+background-color:red;
+   color: blue;
+   transform: rotate(45deg);
+    p{
+        transform: rotate(-45deg);
+    }
+}
+// sass styles.scss styles.css --watch

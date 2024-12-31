@@ -1,0 +1,13 @@
+@mixin flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header {
+    height: 200px;
+    &_logo {
+        @include flexbox();
+    }
+}

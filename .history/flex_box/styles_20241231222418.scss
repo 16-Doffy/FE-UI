@@ -1,0 +1,14 @@
+.list{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+list-style: none;
+align-items: flex-start;
+    .list-item{
+       
+        padding: 1rem;
+        background-color: orange;
+        margin: 0 5px;
+    }
+}

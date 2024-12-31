@@ -1,0 +1,19 @@
+.list{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+list-style: none;
+align-items: stretch;
+align-items: flex-start;
+align-items: flex-end;
+    .list-item{
+       
+        padding: 1rem;
+        background-color: orange;
+        margin: 0 5px;
+    }
+    .list-item:first-child{
+        font-size: 5rem;
+    }
+}

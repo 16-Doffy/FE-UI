@@ -1,0 +1,9 @@
+.list{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    .list-item{
+        padding: 1rem;
+        background-color: orange;
+    }
+}

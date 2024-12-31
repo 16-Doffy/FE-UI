@@ -1,0 +1,9 @@
+.list{
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    .list-item{
+        padding: 1rem;
+        background-color: orange;
+    }
+}
